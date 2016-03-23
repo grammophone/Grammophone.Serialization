@@ -314,7 +314,7 @@ namespace Gramma.Serialization
 
 			for (; type != null; type = type.BaseType)
 			{
-				if (!type.IsEnum && type.GetCustomAttributes(typeof(SerializableAttribute), false).Length == 0)
+				if (!type.IsEnum && !type.IsInterface && type.GetCustomAttributes(typeof(SerializableAttribute), false).Length == 0)
 				{
 					throw new SerializationException(String.Format("The type '{0}' is not marked with SerializableAttribute.", type.FullName));
 				}
