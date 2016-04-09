@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.IO;
 using System.Reflection;
 
-namespace Gramma.Serialization
+namespace Grammophone.Serialization
 {
 	/// <summary>
 	/// Reads an object graph from a stream.

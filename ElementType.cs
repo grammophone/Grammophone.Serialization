@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Serialization
+namespace Grammophone.Serialization
 {
 	/// <summary>
 	/// Descriptor byte of following bytes in the binary stream. All ID values are of type <see cref="Int32"/>.

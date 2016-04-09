@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters;
 using System.Text;
 
-namespace Gramma.Serialization
+namespace Grammophone.Serialization
 {
 	/// <summary>
 	/// Default SerializationBinder implementation. Attempts to load the desired type with no restrictions.

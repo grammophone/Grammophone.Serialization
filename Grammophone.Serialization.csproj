@@ -8,8 +8,8 @@
     <ProjectGuid>{B0E855CB-8A43-4623-8184-31CD4B4EBB57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.Serialization</RootNamespace>
-    <AssemblyName>Gramma.Serialization</AssemblyName>
+    <RootNamespace>Grammophone.Serialization</RootNamespace>
+    <AssemblyName>Grammophone.Serialization</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
@@ -30,7 +30,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.Serialization.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.Serialization.XML</DocumentationFile>
     <NoWarn>0618</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.Serialization.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.Serialization.XML</DocumentationFile>
     <NoWarn>0618</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>

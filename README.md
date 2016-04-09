@@ -1,5 +1,5 @@
-# Gramma.Serialization
-This library,  [also available via Nuget](https://www.nuget.org/packages/Gramma.Serialization/), provides the `FastBinaryFormatter` class, an [`IFormatter`](http://msdn.microsoft.com/en-us/library/system.runtime.serialization.iformatter(v=vs.100).aspx) implementation as a replacement for the standard  BinaryFormatter for serialization purposes. It has the following features:
+# Grammophone.Serialization
+This library,  [also available via Nuget](https://www.nuget.org/packages/Grammophone.Serialization/), provides the `FastBinaryFormatter` class, an [`IFormatter`](http://msdn.microsoft.com/en-us/library/system.runtime.serialization.iformatter(v=vs.100).aspx) implementation as a replacement for the standard  BinaryFormatter for serialization purposes. It has the following features:
 
 1. It has a higher upper limit for the number of objects being serialized. The standard BinaryFormatter  [has a limit of ~13.2 million objects](https://connect.microsoft.com/VisualStudio/feedback/details/303278/binary-serialization-fails-for-moderately-large-object-graphs). The FastBinaryFormatter limits 2^31 reference-type instances and poses no limits to value-type instances. 
 2. It runs faster and is less memory-demanding, especially during deserialization. 

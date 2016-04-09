@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.IO;
 using System.Reflection;
 
-namespace Gramma.Serialization
+namespace Grammophone.Serialization
 {
 	/// <summary>
 	/// Common base for <see cref="ObjectReader"/> and <see cref="ObjectWriter"/>.

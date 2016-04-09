@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Reflection;
 using System.IO;
 
-namespace Gramma.Serialization
+namespace Grammophone.Serialization
 {
 	/// <summary>
 	/// An <see cref="IFormatter"/> implementation for serializing objects in a custom binary format.

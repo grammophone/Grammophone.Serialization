@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Gramma.Serialization")]
+[assembly: AssemblyTitle("Grammophone.Serialization")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Gramma.Serialization")]
+[assembly: AssemblyProduct("Grammophone.Serialization")]
 [assembly: AssemblyCopyright("Copyright © grammophone 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
