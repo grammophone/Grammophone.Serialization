@@ -183,11 +183,13 @@ namespace Grammophone.Serialization
 
 			return BitConverter.ToChar(bytes, 0);
 		}
-
+        /*
 		private DateTime ReadDateTime()
 		{
-			return DateTime.FromBinary(ReadInt64());
+            //NOTE(jrg): DateTime is now handled by ISerializable. Anyways it was wrong since ObjectWriter is desined to write Ticks and DateTime.FromBinary does not accept only ticks as parameter.
+            return new DateTime(ReadInt64());
 		}
+        */
 
 		private Decimal ReadDecimal()
 		{
@@ -381,10 +383,11 @@ namespace Grammophone.Serialization
 					{
 						value = ReadChar();
 					}
-					else if (type == typeof(DateTime))
-					{
-						value = ReadDateTime();
-					}
+                    //NOTE(jrg): DateTime is going to handled by ISerializable
+					//else if (type == typeof(DateTime))
+					//{
+					//	value = ReadDateTime();
+					//}
 					else if (type == typeof(Decimal))
 					{
 						value = ReadDecimal();
