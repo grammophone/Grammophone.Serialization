@@ -140,7 +140,7 @@ namespace Grammophone.Serialization
 		private void WriteString(string text)
 		{
 			if (text == null) throw new ArgumentNullException("text");
-			
+
 			var characters = text.ToCharArray();
 
 			byte[] lengthBytes = BitConverter.GetBytes(characters.Length);
@@ -207,11 +207,6 @@ namespace Grammophone.Serialization
 			var bytes = BitConverter.GetBytes(value);
 
 			stream.Write(bytes, 0, 2);
-		}
-
-		private void WriteDateTime(DateTime value)
-		{
-			WriteInt64(value.Ticks);
 		}
 
 		private void WriteDecimal(Decimal value)
@@ -421,11 +416,6 @@ namespace Grammophone.Serialization
 						WriteChar((Char)value);
 						return;
 					}
-					else if (type == typeof(DateTime))
-					{
-						WriteDateTime((DateTime)value);
-						return;
-					}
 					else if (type == typeof(Decimal))
 					{
 						WriteDecimal((Decimal)value);
@@ -603,7 +593,7 @@ namespace Grammophone.Serialization
 					WriteInternedString(entry.Name);
 				else
 					WriteString(entry.Name);
-				
+
 				WriteObject(entry.Value);
 			}
 		}
