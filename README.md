@@ -1,5 +1,5 @@
 # Grammophone.Serialization
-This .NET Snandard 2.0 library
+This .NET Standard 2.0 library
 provides the `FastBinaryFormatter` class, an [`IFormatter`](http://msdn.microsoft.com/en-us/library/system.runtime.serialization.iformatter(v=vs.100).aspx)
 implementation as a replacement for the standard  BinaryFormatter for serialization purposes. It has the following features:
 
